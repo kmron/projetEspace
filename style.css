@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    
+     
+    
+body, html{
+    height:100%;
+}
+
+body{
+    text-align:center;
+    }
+    
+#main{ 
+    max-width:100%; 
+    min-height:100%; 
+    margin:0 auto; 
+    position:relative;  
+}
+    
+footer{
+    background:rgb(20, 33, 61);
+    box-shadow: 0px 3px 13px 3px rgba(0, 0, 0, 0.4);
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    height:10%;
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+footer p{
+    color:white;
+}
+
+footer a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.4em;
+    transition: 0.5s;
+}
+
+footer a:hover{
+    color:white;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
