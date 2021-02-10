@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 *{
     margin:0;
     padding:0;
@@ -24,8 +24,8 @@ body{
 footer{
     background:rgb(20, 33, 61);
     box-shadow: 0px 3px 13px 3px rgba(0, 0, 0, 0.4);
-    position:absolute;
-    bottom:0;
+    position : relative;
+    top : vh;
     width:100%;
     padding-top:50px;
     height:10%;
@@ -48,19 +48,15 @@ footer a:hover{
     text-decoration: underline;
     font-size: 1.5em;
 }
-=======
+
 body {
 	position: fixed; 
-	//overflow-y:auto;
-	//overflow:hidden;
+	overflow-y:auto;
+	overflow:hidden;
 	margin:0px;
 	padding:0px;
 	background:#181818;
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
-}
-
-html {
-
 }
 
 #divdiag {
@@ -130,11 +126,10 @@ div#divmenu
 .menubas a:hover{text-decoration: none; }
 
 .menu {
-<<<<<<< HEAD
 	background-color:#777777;	
-=======
+
 	color:#000000;
->>>>>>> wiki
+
 	-moz-user-select: -moz-none;
     -khtml-user-select: none;
     -webkit-user-select: none;
@@ -271,21 +266,22 @@ p {
 	overflow:hidden;
 }
 
-<<<<<<< HEAD
 .legende {
 	margin:0px;
 	padding:0px;
 	color:#AAAAAA;
 	text-align:center;
 	font-size: 0.6em;
-	font-style: italic;
-=======
+    font-style: italic;
+}
+
+
 @font-face{
     font-family : NASA;
     src: url(fonts/nasalization-rg.ttf);
 }
 
-header, .solar-system-header, .solar-container{
+header, footer, .solar-system-header, .solar-container{
     font-family : NASA;
 }
 
@@ -296,7 +292,10 @@ header{
     align-items: center;
     background-color: #14213d;
     border-bottom: solid 4px #E5E5E5;
->>>>>>> e0c3bb4411ce1066f4ce6aa89380a94f7d87e856
+}
+
+header li {
+    list-style-type : none;
 }
 
 .illustration {
@@ -315,11 +314,10 @@ h1 {
 	color:#FFFFFF;
 }
 
-<<<<<<< HEAD
 canvas {
     display: block; /* fix necessary to remove space at bottom of canvas */
 }
-=======
+
 header li:last-of-type{
     margin-right: 0vw;
 }
@@ -330,8 +328,5 @@ header li:last-of-type{
 }
 
 .solar-system-header{
-    top : 120px;
+    top : 100px;
 }
-
->>>>>>> e0c3bb4411ce1066f4ce6aa89380a94f7d87e856
->>>>>>> bf873a5aab80f7a5811f6b485956d3a9f1a39555
