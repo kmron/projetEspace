@@ -1,5 +1,14 @@
 /*header*/
 
+@font-face{
+    font-family : NASA;
+    src: url(fonts/nasalization-rg.ttf);
+}
+
+header, .solar-system-header, .solar-container{
+    font-family : NASA;
+}
+
 header{
     display: flex;
     flex-direction: column;
