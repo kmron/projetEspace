@@ -14,11 +14,9 @@ html {
 
 #divdiag {
 	z-index: 0;
-	background-color:#cccccc;
 }
 
 #textdiag{
-	background-color:#000000;
 	padding-left:2em;
 	padding-right:2em;
 	padding-top:8%;
@@ -36,7 +34,6 @@ div#divbg
 {
 	color:#FFFFFF;
 	margin:0px;
-	background-color:#000000;
 	padding:0px;
 }
 
@@ -45,7 +42,6 @@ div#divbg
 div#divd
 {
 	margin:0px;
-	background-color:#000000;
 	color:#FFFFFF;
 	padding:0px;
 }
@@ -87,9 +83,7 @@ div#divmenu
 .menubas a:hover{ color:#000000;background-color:#AAAAAA;text-decoration: none; }
 
 .menu {
-	background-color:#777777;
 	color:#000000;
-	
 	-moz-user-select: -moz-none;
     -khtml-user-select: none;
     -webkit-user-select: none;
