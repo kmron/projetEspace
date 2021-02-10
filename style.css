@@ -27,3 +27,13 @@ header li{
 header li:last-of-type{
     margin-right: 0vw;
 }
+
+.solar-system{
+    top : 50x;
+    transform : scale(0.6);
+}
+
+.solar-system-header{
+    top : 120px;
+}
+
