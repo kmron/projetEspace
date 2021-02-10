@@ -13,7 +13,11 @@ html {
 }
 
 #divdiag {
+<<<<<<< HEAD
 	z-index: 0
+=======
+	z-index: 0;
+>>>>>>> wiki
 }
 
 #textdiag{
@@ -79,7 +83,11 @@ div#divmenu
 .menubas a:hover{text-decoration: none; }
 
 .menu {
+<<<<<<< HEAD
 	background-color:#777777;	
+=======
+	color:#000000;
+>>>>>>> wiki
 	-moz-user-select: -moz-none;
     -khtml-user-select: none;
     -webkit-user-select: none;
