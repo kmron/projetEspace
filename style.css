@@ -4,7 +4,7 @@ body {
 	//overflow:hidden;
 	margin:0px;
 	padding:0px;
-	background:#222222;
+	background:#181818;
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
 
@@ -13,12 +13,10 @@ html {
 }
 
 #divdiag {
-	z-index: 0;
-	background-color:#cccccc;
+	z-index: 0
 }
 
 #textdiag{
-	background-color:#000000;
 	padding-left:2em;
 	padding-right:2em;
 	padding-top:8%;
@@ -36,7 +34,6 @@ div#divbg
 {
 	color:#FFFFFF;
 	margin:0px;
-	background-color:#000000;
 	padding:0px;
 }
 
@@ -45,7 +42,6 @@ div#divbg
 div#divd
 {
 	margin:0px;
-	background-color:#000000;
 	color:#FFFFFF;
 	padding:0px;
 }
@@ -55,10 +51,7 @@ div#divmenu
 {
 	margin:0px;
 	padding:0px;
-	background-color:#777777;
-	color:#000000;
 	padding:0px;
-	
 	-moz-user-select: -moz-none;
     -khtml-user-select: none;
     -webkit-user-select: none;
@@ -72,7 +65,6 @@ div#divmenu
 	margin: 0 auto;
 	padding:0;
 	height: auto;
-	//background-color:#777777;
 	padding: auto;
 	position: absolute; 
 	bottom:2%;
@@ -84,12 +76,10 @@ div#divmenu
  color: #FFFFFF; 
  text-decoration: none; 
 } 
-.menubas a:hover{ color:#000000;background-color:#AAAAAA;text-decoration: none; }
+.menubas a:hover{text-decoration: none; }
 
 .menu {
-	background-color:#777777;
-	color:#000000;
-	
+	background-color:#777777;	
 	-moz-user-select: -moz-none;
     -khtml-user-select: none;
     -webkit-user-select: none;
@@ -99,7 +89,6 @@ div#divmenu
 }
 
 .onglets {
-	background-color:#111111;
 	color:#AAAAAA;
 	z-index:10;
 	-moz-user-select: -moz-none;
@@ -110,10 +99,8 @@ div#divmenu
 }
 
 .ong {
-	border-color: #222222;
 	border-style: solid;
 	border-width: 0.1em;
-	background-color:#222222;
 	text-align:center;
 }
 
