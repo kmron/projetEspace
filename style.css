@@ -13,11 +13,7 @@ html {
 }
 
 #divdiag {
-<<<<<<< HEAD
 	z-index: 0
-=======
-	z-index: 0;
->>>>>>> wiki
 }
 
 #textdiag{
@@ -224,6 +220,7 @@ p {
 	overflow:hidden;
 }
 
+<<<<<<< HEAD
 .legende {
 	margin:0px;
 	padding:0px;
@@ -231,6 +228,24 @@ p {
 	text-align:center;
 	font-size: 0.6em;
 	font-style: italic;
+=======
+@font-face{
+    font-family : NASA;
+    src: url(fonts/nasalization-rg.ttf);
+}
+
+header, .solar-system-header, .solar-container{
+    font-family : NASA;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #14213d;
+    border-bottom: solid 4px #E5E5E5;
+>>>>>>> e0c3bb4411ce1066f4ce6aa89380a94f7d87e856
 }
 
 .illustration {
@@ -249,6 +264,22 @@ h1 {
 	color:#FFFFFF;
 }
 
+<<<<<<< HEAD
 canvas {
     display: block; /* fix necessary to remove space at bottom of canvas */
 }
+=======
+header li:last-of-type{
+    margin-right: 0vw;
+}
+
+.solar-system{
+    top : 50x;
+    transform : scale(0.6);
+}
+
+.solar-system-header{
+    top : 120px;
+}
+
+>>>>>>> e0c3bb4411ce1066f4ce6aa89380a94f7d87e856
