@@ -1,0 +1,26 @@
+html{
+	box-sizing: border-box;
+	margin:0;
+	background-color: #181818;
+}
+
+p, h1, li{
+	color: white;
+}
+
+.divbg{
+	margin-top: 10px;
+}
+
+tr{
+	color:white;
+	border: white;
+}
+
+tbody{
+	border:white;
+}
+
+#tableau{
+	border-color: white;
+}

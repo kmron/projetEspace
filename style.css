@@ -17,6 +17,7 @@ header{
     background-color: #14213d;
     border-bottom: solid 4px #E5E5E5;
     text-align : center;
+    z-index: 10000;
 }
 
 header img{
@@ -34,6 +35,18 @@ header li{
     margin-right: 10vw;
 }
 
+p:first-child, ul li{
+    color: white;
+    font-family : NASA;
+
+}
+#astres{
+    position: absolute;
+    left: 1vw;;
+    top: 30vh;
+}
+
+
 header li:last-of-type{
     margin-right: 0vw;
 }
@@ -50,12 +63,12 @@ header li:last-of-type{
 
 footer{
     background:rgb(20, 33, 61);
-    box-shadow: 0px 3px 13px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 20px 3px 13px 3px rgba(0, 0, 0, 0.4);
+    border-top: solid 4px #E5E5E5;
     position:relative;
     bottom:0;
     width:100%;
     padding-top:50px;
-    height:10%;
     text-align : center;
     margin : 0 auto;
     top : 57vh;
@@ -76,4 +89,9 @@ footer a:hover{
     color:white;
     text-decoration: underline;
     font-size: 1.5em;
+}
+
+header a:hover #sans{
+    font-size: 1.1em;
+
 }

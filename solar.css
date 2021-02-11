@@ -1835,14 +1835,14 @@ body {
   left: 5vw;
   position: fixed;
   width: 90vw;
-  z-index: 9999;
+  z-index: 9;
 }
 
 .solar-system {
-  height: 100vh;
+  height: 10vh;
   left: 0;
   position: fixed;
-  top: 0;
+  top: 50vh;
   transition: all .5s ease-in-out;
   width: 100vw;
   z-index: -1;
@@ -2188,7 +2188,7 @@ body {
   right: 1rem;
   top: 1rem;
   width: 12rem;
-  z-index: 99999;
+  z-index: 999;
 }
 
 .solar-caption .solar-card .solar-name {
@@ -2309,7 +2309,7 @@ body {
   left: 0;
   padding: 1rem;
   top: 0;
-  z-index: 10000;
+  z-index: 100;
 }
 
 .solar-system-header .solar-brand {
@@ -2342,7 +2342,7 @@ body {
   position: fixed;
   text-transform: uppercase;
   top: 4rem;
-  z-index: 99999;
+  z-index: 999;
 }
 
 .solar-system-controls .form-switch3d {
@@ -2367,5 +2367,9 @@ body {
   display: block;
   position: fixed;
   right: 1rem;
-  z-index: 9999;
+  z-index: 999;
+}
+
+#solarsystem{
+  z-index:1;
 }
